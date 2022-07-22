@@ -1,0 +1,10 @@
+App(
+    appid="Murdy_game",
+    name="Murdy",
+    apptype=FlipperAppType.GAME,
+    entry_point="Murdy_game_app",
+    cdefines=["APP_Murdy_GAME"],
+    requires=["gui"],
+    stack_size=1 * 1024,
+    order=70,
+)
